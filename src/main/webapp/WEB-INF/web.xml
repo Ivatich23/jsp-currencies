@@ -7,4 +7,22 @@
     <welcome-file-list>
         <welcome-file>currencies.jsp</welcome-file>
     </welcome-file-list>
+
+    <servlet>
+        <servlet-name>exchangeRates</servlet-name>
+       <jsp-file>/exchangeRates.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exchangeRates</servlet-name>
+        <url-pattern>/exchangeRates</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>convert</servlet-name>
+        <jsp-file>/convert.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>convert</servlet-name>
+        <url-pattern>/convert</url-pattern>
+    </servlet-mapping>
 </web-app>
